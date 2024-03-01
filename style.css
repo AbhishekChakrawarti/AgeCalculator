@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.con{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/top-view-calculator-notebook-frame_23-2149103980.jpg?size=626&ext=jpg&ga=GA1.1.98259409.1709078400&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.age{
+    font-size: 50px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.inputContainer{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.date{
+    width: 300px;
+    height: 50px;
+    /* background-color: black; */
+    text-align: center;
+    align-items: center;
+}
+#date{
+    margin-top: 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button{
+    background-color: transparent;
+    font-size: x-large;
+    border-radius: 20px;
+    padding: 10px; 
+}
+
+.outputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.out{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius:  10px;
+}
+
+.after{
+    font-size: 50px;
+    z-index: 1;
+    position: absolute;
+}
+
+button:hover{
+    background-color: aqua;
+}
